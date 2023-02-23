@@ -1,0 +1,75 @@
+/* banner */
+#banner {
+    background: url(/assets/img/destinybicycle.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #banner .navbar-header {
+    background-color: #ee8905;
+  }
+  #banner .navbar-collapse {
+    text-transform: uppercase;
+  }
+  #banner .ban-cont h1 {
+    font-weight: 600;
+    margin-top: 8rem;
+  }
+  #banner .ban-cont button {
+    border: none;
+    background-color: #ee8905;
+    text-transform: uppercase;
+  }
+  /* qualities */
+  #qualities img {
+    background-color:#ee8905;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+  /* designs */
+  #designs {
+    background: rgb(247, 243, 243);
+    height: 90vh;
+  }
+  #designs h3 {
+    margin-top: 2.5rem !important;
+  }
+  #designs img {
+    height: 60vh;
+    margin-top: 2.5rem !important;
+  }
+  #designs button {
+    background: #ee8905;
+    border: none;
+    text-transform: uppercase;
+  }
+  /* designs2 */
+  #designs2 {
+    height: 90vh;
+  }
+  #designs2 h3 {
+    margin-top: 2.5rem !important;
+  }
+  #designs2 img {
+    height: 60vh;
+    margin-top: 2.5rem !important;
+  }
+  #designs2 button {
+    background: #ee8905;
+    border: none;
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 918px) {
+    #banner .ban-cont h1 {
+      width: 90% !important;
+    }
+    #banner .ban-cont h6 {
+      width: 90% !important;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    #designs {
+      height: 140vh;
+    }
+  }
+  
